@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import { my_sum } from './../day-1/exercise-0.js';
 import { my_display_alpha } from './../day-1/exercise-1.js';
-
+import { my_display_alpha_reverse } from './../day-1/exercise-2.js';
 
 describe('exercise-0', function () {
     describe('my_sum_success', function () {
@@ -26,6 +26,14 @@ describe('exercise-1', function () {
     describe('my_display_alpha', function () {
       it('Returns the alphabet as a single string', function () {
         assert.equal(my_display_alpha(), 'abcdefghijklmnopqrstuvwxyz');
+      });
+    });
+  });
+
+  describe('exercise-2', function () {
+    describe('my_display_alpha_reverse', function () {
+      it('Returns the alphabet as a single string in reverse', function () {
+        assert.equal(my_display_alpha_reverse(), 'zyxwvutsrqponmlkjihgfedcba');
       });
     });
   });
