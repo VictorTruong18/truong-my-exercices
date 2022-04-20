@@ -68,4 +68,13 @@ describe('exercise-1', function () {
     });
   });
 
+  describe('exercise-6', function () {
+    describe('my_length_array', function () {
+      it('returns letter', function () {
+        assert.deepEqual(my_length_array(['t', 'o', 't', 'o', 't']), 5);
+      });
+    });
+  });
+
+
  
