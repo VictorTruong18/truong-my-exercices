@@ -54,7 +54,18 @@ describe('exercise-1', function () {
   describe('exercise-4', function () {
     describe('my_size_alpha', function () {
       it('Counts the right number of letters', function () {
-        assert.equal(my_alpha_number("mabite"),6);
+        assert.equal(my_size_alpha("mabite"),6);
       });
     });
   });
+
+
+  describe('exercise-5', function () {
+    describe('my_array_alpha', function () {
+      it('returns letter', function () {
+        assert.deepEqual(['t', 'o', 't', 'o', 't'], my_array_alpha("totot"));
+      });
+    });
+  });
+
+ 
