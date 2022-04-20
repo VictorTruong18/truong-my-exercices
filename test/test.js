@@ -76,5 +76,24 @@ describe('exercise-1', function () {
     });
   });
 
+  describe('exercise-7', function () {
+    describe('my_is_posi_neg NEGATIF', function () {
+      it('returns NEGATIVE', function () {
+        assert.equal(my_is_posi_neg(-2),"NEGATIF" );
+      });
+    });
+    describe('my_is_posi_neg POSITIF', function () {
+        it('returns NEGATIVE', function () {
+          assert.equal(my_is_posi_neg(2),"POSITIF" );
+        });
+    });
+    describe('my_is_posi_neg NEUTRAL', function () {
+        it('returns NEUTRAL', function () {
+          assert.equal(my_is_posi_neg(0),"NEUTRAL" );
+        });
+    });
+  });
+
+
 
  
